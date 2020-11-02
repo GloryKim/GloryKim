@@ -18,9 +18,7 @@
 
 <div align=center>
 
-<br />
 ### Diligent man tries to the end.
 ### He who tries to the end wins.
-<br />
 
 </div>
