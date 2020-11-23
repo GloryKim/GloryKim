@@ -1,7 +1,7 @@
 <div align=center>
   
 ## 👋 Hello!!<br />
-`Tensorflow`, `Front-End`, `IoTivity`, `Go`, `Swift`, `OCF`
+`Tensorflow`, `Front-End`, `IoTivity`, `Go`, `Swift`
 <br />
 
 <div align=center>
