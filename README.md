@@ -1,7 +1,7 @@
 <div align=center>
   
 ## 👋 Hello!!<br />
-`Kubeflow`,`Tensorflow`, `Front-End`, `IoTivity`, `Go`, `Microservice`
+`Python`, `Tensorflow`, `Keras`, `IoT`, `JAVA`, `Spring`, `JavaScript` 
 <br />
 <div align=center>
   
