@@ -1,7 +1,7 @@
 <div align=center>
   
 ## 👋 Hello!!<br />
-`Python`, `Tensorflow`, `Keras`, `IoT`, `JAVA`, `Spring`, `JavaScript` 
+`Python`, `Tensorflow`, `Keras`, `IoT`, `JAVA`, `Spring`, `JavaScript`, Kubernetes 
 <br />
 <div align=center>
   
