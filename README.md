@@ -20,15 +20,8 @@
   <img src="https://img.shields.io/badge/Torch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
 </p>
 
-#### 🚀 Main Focus
-<p>
-  Asynchronous data handling and processing are at the core of my development. I specialize in building highly scalable and responsive systems using:
-  <ul>
-    <li>Concurrent request handling in Node.js and FastAPI</li>
-    <li>Asynchronous operations and event-driven architectures in Go and Rust</li>
-    <li>Data streams and real-time processing with ROS2</li>
-    <li>Efficient background tasks and API integration with NestJS</li>
-  </ul>
-</p>
+#### 👉 Click the above language stats to explore my repositories on GitHub!
+
+<p>Click the language stats image above to see more of my projects and how I work with asynchronous data handling. You'll find detailed documentation and code samples on <a href="https://github.com/GloryKim/glory">my GitHub page</a>.</p>
 
 </div>
