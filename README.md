@@ -2,10 +2,6 @@
 
 ### Hello! I'm Glory 😁
 
-<a href="https://github.com/GloryKim/glory">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GloryKim&theme=dracula&hide_langs_below=1" />
-</a>
-
 ### 🛠️ Tech Stack Focused on Asynchronous Data Handling
 
 #### Languages & Frameworks
@@ -21,5 +17,9 @@
 </p>
 
 #### 👉 <a href="https://github.com/GloryKim/glory">Click here</a> to explore my repositories on GitHub!
+
+<a href="https://github.com/GloryKim/glory">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GloryKim&theme=dracula&hide_langs_below=1" />
+</a>
 
 </div>
