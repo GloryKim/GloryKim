@@ -20,8 +20,6 @@
   <img src="https://img.shields.io/badge/Torch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
 </p>
 
-#### 👉 Click the above language stats to explore my repositories on GitHub!
-
-<p>Click the language stats image above to see more of my projects and how I work with asynchronous data handling. You'll find detailed documentation and code samples on <a href="https://github.com/GloryKim/glory">my GitHub page</a>.</p>
+#### 👉 <a href="https://github.com/GloryKim/glory">Click here</a> to explore my repositories on GitHub!
 
 </div>
