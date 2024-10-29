@@ -19,7 +19,8 @@
 #### 👉 <a href="https://github.com/GloryKim/glory">Click here</a> to explore my repositories on GitHub!
 
 <a href="https://github.com/GloryKim/glory">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GloryKim&layout=compact&theme=dark"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GloryKim&layout=compact&theme=dark"/> 
+  [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=yklovejesus)](https://solved.ac/yklovejesus/)
 </a>
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=yklovejesus)](https://solved.ac/yklovejesus/)
