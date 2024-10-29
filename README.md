@@ -21,4 +21,6 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GloryKim&theme=dracula&hide_langs_below=1" />
 </a>
 
+
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=yklovejesus)](https://solved.ac/yklovejesus/)
 </div>
