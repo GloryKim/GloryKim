@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" />
   <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white" />
 </p>
+
 <p>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
@@ -21,6 +22,8 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GloryKim&theme=dracula&hide_langs_below=1" />
 </a>
 
-
+<p>
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=yklovejesus)](https://solved.ac/yklovejesus/)
+</p>
+
 </div>
