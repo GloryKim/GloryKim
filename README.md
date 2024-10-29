@@ -22,6 +22,4 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GloryKim&layout=compact&theme=dark"/> 
 </a>
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=yklovejesus)](https://solved.ac/yklovejesus/)
-
 </div>
