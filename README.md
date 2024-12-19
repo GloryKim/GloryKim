@@ -14,9 +14,10 @@
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Torch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
 </p>
 
-#### 👉 <a href="https://github.com/GloryKim/glory">Click here</a> to explore my repositories on GitHub!
+#### 👉 <a href="https://github.com/GloryKim?tab=repositories">Click here</a> to explore my repositories on GitHub!
 
 <a href="https://github.com/GloryKim/glory">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GloryKim&layout=compact&theme=dark"/> 
