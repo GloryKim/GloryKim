@@ -4,4 +4,7 @@
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=yklovejesus)](https://solved.ac/yklovejesus)
 
+
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=yklovejesus)](https://solved.ac/yklovejesus)
+
 </div>
