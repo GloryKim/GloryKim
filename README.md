@@ -2,8 +2,6 @@
   
 ### 12년차 주니어 개발자
 
-<a href="https://github.com/GloryKim">
-  <img src="https://api.solve-nyang.com/compose/yklovejesus" width="600" height="300"/>
-</a>
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=yklovejesus)](https://solved.ac/yklovejsus/)
 
 </div>
