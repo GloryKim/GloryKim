@@ -8,6 +8,6 @@
 
 <br>
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,pytorch,fastapi,react,threejs,fiber&perline=7" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,pytorch,fastapi,react,threejs&perline=6" />
 
 </div>
