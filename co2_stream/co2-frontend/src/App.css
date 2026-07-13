@@ -1,0 +1,273 @@
+/* 기본 초기화 및 폰트 설정 */
+:root {
+  --bg-color: #0f172a;
+  --panel-bg: #181b1f;
+  --border-color: #2c2e33;
+  --text-main: #d8d9da;
+  --accent-blue: #3274d9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--text-main);
+  overflow: auto;
+}
+
+/* 기존 단독 대시보드 루트 */
+.dashboard-root {
+  width: 100%;
+  min-height: 100vh;
+  padding: 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 헤더 바 레이아웃 */
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 12px;
+}
+
+.header-bar h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.header-bar small {
+  font-size: 1rem;
+  color: #7b7b7b;
+  margin-left: 10px;
+}
+
+/* 대시보드 그리드 시스템 */
+.dashboard-grid {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(220px, 1fr));
+  grid-auto-rows: minmax(160px, auto);
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+/* 개별 카드 디자인 */
+.panel {
+  min-width: 0;
+  width: 100%;
+  background: var(--panel-bg);
+  border: 1px solid var(--border-color);
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.panel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent-blue);
+}
+
+.panel label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: var(--accent-blue);
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
+/* 농도 차트: 화면 전체 폭 사용 */
+.chart-full {
+  grid-column: 1 / -1;
+  grid-row: span 2;
+}
+
+/* 에너지 바 차트 */
+.chart-wide {
+  grid-column: span 2;
+}
+
+/* Recharts가 부모 폭을 정확히 따라가도록 보정 */
+.recharts-responsive-container,
+.recharts-wrapper {
+  min-width: 0 !important;
+}
+
+/* 상태 표시 */
+.status-badge {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.status-badge.operating {
+  color: #2ecc71;
+}
+
+.status-badge.warning {
+  color: #e74c3c;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* 온도 및 압력 텍스트 레이아웃 */
+.stat-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.stat-item .label {
+  font-size: 0.8rem;
+  color: #7b7b7b;
+}
+
+.stat-item .value {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/* 에너지 수치 */
+.energy-val {
+  color: #f8fafc;
+}
+
+/* 차트 하단 */
+.chart-footer {
+  color: #cbd5e1;
+  font-size: 0.9rem;
+}
+
+/* 런타임 박스 */
+.runtime-box {
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+.runtime-box p {
+  margin: 6px 0;
+}
+
+/* 로딩 화면 */
+.loading {
+  background-color: var(--bg-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+/* 뒤로가기 버튼 */
+.back-btn {
+  background: transparent;
+  border: 1px solid #444;
+  color: #ccc;
+  padding: 5px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.back-btn:hover {
+  background: #333;
+  color: white;
+}
+
+/* 큰 화면: 4열 유지 */
+@media (min-width: 1500px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(4, minmax(220px, 1fr));
+  }
+
+  .chart-wide {
+    grid-column: span 2;
+  }
+
+  .chart-full {
+    grid-column: 1 / -1;
+  }
+}
+
+/* 중간 화면: 3열 */
+@media (max-width: 1400px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(3, minmax(220px, 1fr));
+  }
+
+  .chart-wide {
+    grid-column: span 2;
+  }
+
+  .chart-full {
+    grid-column: 1 / -1;
+  }
+}
+
+/* 작은 화면: 2열 */
+@media (max-width: 1100px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+  }
+
+  .chart-wide,
+  .chart-full {
+    grid-column: 1 / -1;
+  }
+}
+
+/* 모바일 수준: 1열 */
+@media (max-width: 760px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .chart-wide,
+  .chart-full {
+    grid-column: 1 / -1;
+  }
+
+  .stat-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
