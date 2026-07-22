@@ -6,7 +6,7 @@
 ## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,go,nodejs,python,ts,js,nestjs,react,tauri,docker,git,linux" />
+  <img src="https://skillicons.dev/icons?i=rust,go,nodejs,python,ts,js,nestjs,react,tokio" />
 </p>
 
 <p align="center">
@@ -16,6 +16,5 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white" />
   <img src="https://img.shields.io/badge/Async-Tokio-FF69B4?style=flat-square" />
 </p>
