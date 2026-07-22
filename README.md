@@ -6,7 +6,7 @@
 ## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,go,nodejs,python,ts,js,nestjs,react,tokio" />
+  <img src="https://skillicons.dev/icons?i=rust,go,nodejs,python,ts,js,nestjs,react" />
 </p>
 
 <p align="center">
